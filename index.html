@@ -31,7 +31,7 @@
 
 <body class="main-layout">
     <!-- loader  -->
-	<div itemscope itemtype="https://schema.org/FoodEstablishment">
+  <div itemscope itemtype="https://schema.org/FoodEstablishment">
   <span itemprop="name">SICYO</span>
   <div itemprop="location" itemscope itemtype="https://schema.org/PostalAddress">
     <span itemprop="streetAddress">Madame Toussauds</span>
@@ -81,8 +81,9 @@
     <header>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-3">
-                    <div class="full">
+                <div itemprop = "logo" class="col-md-3">
+                   
+					<div class="full">
                         <a class="logo" href="index.html"><img src="images/logo.png" alt="#" /></a>
                     </div>
                 </div>
@@ -90,9 +91,9 @@
                     <div class="full">
                         <div class="right_header_info">
                             <ul>
-                                <li class="dinone">Contact Us : <img style="margin-right: 15px;margin-left: 15px;" src="images/phone_icon.png" alt="#"><a href="#">987-654-3210</a></li>
-                                <li class="dinone"><img style="margin-right: 15px;" src="images/mail_icon.png" alt="#"><a href="#">demo@gmail.com</a></li>
-                                <li class="dinone"><img style="margin-right: 15px;height: 21px;position: relative;top: -2px;" src="images/location_icon.png" alt="#"><a href="#">104 New york , USA</a></li>
+                                <li class="dinone">Contact Us : <img style="margin-right: 15px;margin-left: 15px;" src="images/phone_icon.png" alt="#"><a itemprop="telephone" href="#">987-654-3210</a></li>
+                                <li class="dinone"><img style="margin-right: 15px;" src="images/mail_icon.png" alt="#"><a itemprop = "email" href="#">demo@gmail.com</a></li>
+                                <li class="dinone"><img style="margin-right: 15px;height: 21px;position: relative;top: -2px;" src="images/location_icon.png" alt="#"><a itemprop= "address" href="#">104 New york , USA</a></li>
                                 <li class="button_user"><a class="button active" href="#">Login</a><a class="button" href="#">Register</a></li>
                                 <li><img style="margin-right: 15px;" src="images/search_icon.png" alt="#"></li>
                                 <li>
@@ -119,7 +120,7 @@
                                 <div class="carousel-item active">
                                     <div class="row">
                                         <div class="col-md-5">
-                                            <div class="slider_cont">
+                                            <div itemprop= "description" class="slider_cont">
                                                 <h3>Discover Restaurants<br>That deliver near You</h3>
                                                 <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
                                                 <a class="main_bt_border" href="#">Order Now</a>
@@ -181,7 +182,7 @@
             <div class="row">
          <div class="col-md-12">
        <div class="ourheading">
-    <h2>Our Recipes</h2>
+    <h2 itemprop="Menu">Our Recipes</h2>
   </div>
 </div>    
 <div class="container">
@@ -194,8 +195,8 @@
                         <img src="images/rs1.png" alt="#" />
                     </div>
                     <div class="product_blog_cont">
-                        <h3>Homemade</h3>
-                        <h4><span class="theme_color">$</span>10</h4>
+                        <h3 itemprop="owns" >Homemade</h3>
+                        <h4 itemprop="owns" ><span class="theme_color">$</span>10</h4>
                     </div>
                 </div>
                 <div class="item">
@@ -203,8 +204,8 @@
                         <img src="images/rs2.png" alt="#" />
                     </div>
                     <div class="product_blog_cont">
-                        <h3>Noodles</h3>
-                        <h4><span class="theme_color">$</span>20</h4>
+                        <h3 itemprop="owns" >Noodles</h3>
+                        <h4 itemprop="owns" ><span class="theme_color">$</span>20</h4>
                     </div>
                 </div>
                 <div class="item">
@@ -212,7 +213,7 @@
                         <img src="images/rs3.png" alt="#" />
                     </div>
                     <div class="product_blog_cont">
-                        <h3>Egg</h3>
+                        <h3 itemprop="owns" >Egg</h3>
                         <h4><span class="theme_color">$</span>30</h4>
                     </div>
                 </div>
@@ -221,7 +222,7 @@
                         <img src="images/rs4.png" alt="#" />
                     </div>
                     <div class="product_blog_cont">
-                        <h3>Sushi Dizzy</h3>
+                        <h3 itemprop="owns" >Sushi Dizzy</h3>
                         <h4><span class="theme_color">$</span>40</h4>
                     </div>
                 </div>
@@ -230,7 +231,7 @@
                         <img src="images/rs5.png" alt="#" />
                     </div>
                     <div class="product_blog_cont">
-                        <h3>The Coffee Break</h3>
+                        <h3 itemprop="owns" >The Coffee Break</h3>
                         <h4><span class="theme_color">$</span>50</h4>
                     </div>
                 </div>
@@ -239,7 +240,7 @@
                         <img src="images/rs1.png" alt="#" />
                     </div>
                     <div class="product_blog_cont">
-                        <h3>Homemade</h3>
+                        <h3 itemprop="owns" >Homemade</h3>
                         <h4><span class="theme_color">$</span>10</h4>
                     </div>
                 </div>
@@ -248,7 +249,7 @@
                         <img src="images/rs2.png" alt="#" />
                     </div>
                     <div class="product_blog_cont">
-                        <h3>Noodles</h3>
+                        <h3 itemprop="owns" >Noodles</h3>
                         <h4><span class="theme_color">$</span>20</h4>
                     </div>
                 </div>
@@ -257,7 +258,7 @@
                         <img src="images/rs3.png" alt="#" />
                     </div>
                     <div class="product_blog_cont">
-                        <h3>Egg</h3>
+                        <h3 itemprop="owns" >Egg</h3>
                         <h4><span class="theme_color">$</span>30</h4>
                     </div>
                 </div>
@@ -266,7 +267,7 @@
                         <img src="images/rs4.png" alt="#" />
                     </div>
                     <div class="product_blog_cont">
-                        <h3>Sushi Dizzy</h3>
+                        <h3 itemprop="owns" >Sushi Dizzy</h3>
                         <h4><span class="theme_color">$</span>40</h4>
                     </div>
                 </div>
@@ -275,7 +276,7 @@
                         <img src="images/rs5.png" alt="#" />
                     </div>
                     <div class="product_blog_cont">
-                        <h3>The Coffee Break</h3>
+                        <h3 itemprop="owns" >The Coffee Break</h3>
                         <h4><span class="theme_color">$</span>50</h4>
                     </div>
                 </div>
